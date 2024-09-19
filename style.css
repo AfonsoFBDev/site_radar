@@ -1,0 +1,13 @@
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #218838; /* Tom mais escuro para o item ativo */
+}
+.nav-pills .nav-link {
+  color:#218838 /* Cor da fonte das letras do cabeçalho */
+}
+
+.carousel-caption h5{
+    font-size: 30px;
+    color: #07ff28;
+    text-shadow: 2px 2px 2px black;
+}
