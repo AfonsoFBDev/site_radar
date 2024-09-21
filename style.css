@@ -1,13 +1,62 @@
-.nav-pills .nav-link.active {
+.navbar-nav .nav-link.active {
     color: #fff;
     background-color: #218838; /* Tom mais escuro para o item ativo */
+    border-radius: 15px
+
 }
-.nav-pills .nav-link {
+.navbar-nav .nav-link {
   color:#218838 /* Cor da fonte das letras do cabeçalho */
+  
+
 }
 
-.carousel-caption h5{
+.navbar-custom {
+  font-weight: bold;
+}
+
+.carousel-caption h1{
     font-size: 30px;
     color: #07ff28;
     text-shadow: 2px 2px 2px black;
 }
+
+.carousel-caption h5{
+  font-size: 30px;
+  color: #c6ebce;
+  text-shadow: 1px 1px 1px black;
+}
+
+.custom-text {
+  background-color: rgb(36, 15, 151); /* Fundo branco */
+  color: black; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno para o texto */
+  border-radius: 15px; /* Bordas arredondadas */
+  display: inline-block; /* Para ajustar o fundo ao tamanho do texto */
+  font-size: 2vw; /* Tamanho responsivo baseado na largura da viewport */
+}
+
+/* Estilo para a legenda do carrossel */
+.custom-caption {
+  position: absolute;
+  bottom: 20px; /* Ajusta a posição vertical */
+  right: 20px; /* Ajusta a posição horizontal */
+  max-width: 80%; /* Limita a largura para melhor responsividade */
+  color: white; /* Para garantir que o texto se destaque sobre a imagem */
+  text-align: right; /* Alinha o texto à direita */
+}
+
+ /* Responsividade para dispositivos menores */
+ @media (max-width: 768px) {
+  .custom-text {
+    font-size: 3vw; /* Ajustar o tamanho da fonte para dispositivos móveis */
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-text {
+    font-size: 4vw; /* Ajustar o tamanho da fonte para telas pequenas */
+  }
+}
+
+
+
