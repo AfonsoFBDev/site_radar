@@ -1,7 +1,6 @@
 .navbar-nav .nav-link.active {
-    color: #fff;
-    background-color: #218838; /* Tom mais escuro para o item ativo */
-    border-radius: 15px
+    color: #218838; /* Tom mais escuro para o item ativo */
+    
 
 }
 .navbar-nav .nav-link {
@@ -16,7 +15,7 @@
 
 .carousel-caption h1{
     font-size: 30px;
-    color: #07ff28;
+    color: #218838;
     text-shadow: 2px 2px 2px black;
 }
 
