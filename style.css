@@ -57,5 +57,43 @@
   }
 }
 
+.div .h2 {
+  color: #c6ebce
+}
+
+/* Fonte sobre nós */
+#sobreNos {
+  font-family: 'Roboto', cursive; /* Aplica a fonte apenas no h1 */
+  font-size: 3rem;
+  color: #333;
+  margin: 20px /* Margem da fonte */
+}
+
+#sobreNos {
+  font-family: 'Roboto', cursive; /* Aplica a fonte do Google */
+  font-size: 3rem;
+  color: #333;  
+}
+
+/* Fonte chamativa */
+.Teko {
+  font-family: 'Roboto', cursive;
+}
+
+/* Margem 1, 2 e 3 */
+#margem1 {
+  margin: 20px; /* Margem externa em todos os lados */
+  text-align: justify; /* Alinha o texto dos parágrafos */
+}
+
+#margem2 {
+  margin: 20px; /* Margem externa em todos os lados */
+  text-align: justify; /* Alinha o texto dos parágrafos */
+}
+
+#margem3 {
+  margin: 20px; /* Margem externa em todos os lados */
+  text-align: justify; /* Alinha o texto dos parágrafos */
+}
 
 
