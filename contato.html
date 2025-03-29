@@ -55,92 +55,64 @@
       </div>
     </div>
   </div>
-</nav>
-<h1 id="sobreNos" class="bg-success container-fluid text-warning">SOBRE NÓS</h1>
+</nav> 
+<h1 id="sobreNos" class="bg-success container-fluid text-warning">CONTATO</h1>
 <script>
   document.getElementById('changeFontButton').addEventListener('click', function () {
     const sobreNos = document.getElementById('sobreNos');
     sobreNos.classList.toggle('chamativa'); // Alterna a classe para mudar a fonte
   });
 </script>
-<style>
-  .container {
-      display: flex;
-      min-height: 100vh;
-  }
-  
-  .texto-verde {
-      background-color: #e8f5e9; /* Verde claro */
-      width: 50%;
-      padding: 40px;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
-  
-  .imagem-container {
-      width: 50%;
-  }
-  
-  .imagem {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-  
-  .texto {
-      margin-bottom: 1.5rem;
-      text-align: justify;
-      line-height: 1.6;
-  }
-  
-  /* Responsivo para mobile */
-  @media (max-width: 768px) {
-      .container {
-          flex-direction: column;
-      }
-      .texto-verde, .imagem-container {
-          width: 100%;
-      }
-      .imagem-container {
-          height: 300px;
-      }
-  }
-</style>
-</head>
-<body>
-<div class="container">
-  <div class="texto-verde">
-      <h2>Sobre a Radar Contábil</h2>
-      <p id="margem1" class="texto">
-          A Radar Contábil é um escritório de contabilidade que há mais de 50 anos desempenha um papel essencial 
-          no mercado de serviços contábeis. Fundada por visionários que acreditavam na importância de oferecer suporte 
-          especializado, a empresa se tornou uma referência, especialmente no atendimento a postos de gasolina. Com 
-          profundo conhecimento nos setores contábil, fiscal e de departamento pessoal, a Radar Contábil entende as 
-          particularidades desse segmento, garantindo que os empresários do ramo possam focar em suas operações enquanto a 
-          gestão financeira está em boas mãos.
-      </p>
-      <p id="margem2" class="texto">
-          Além de ser uma especialista em postos de gasolina, a Radar Contábil também se destaca no atendimento a micro 
-          e pequenas empresas dos setores de comércio e serviços. Com um time experiente e dedicado, o escritório oferece 
-          soluções personalizadas para cada cliente, desde a abertura de empresas até a gestão tributária e de pessoal.
-      </p>
-      <p id="margem3" class="texto">
-          Ao longo das décadas, a Radar Contábil construiu uma reputação baseada em confiança, eficiência e resultados. Sua 
-          equipe está sempre atualizada com as mudanças na legislação e com as melhores práticas do mercado, proporcionando 
-          aos clientes a segurança de estarem sempre em conformidade com as leis. Mais do que um escritório de contabilidade, 
-          a Radar Contábil se posiciona como parceira estratégica para o sucesso de seus clientes, com um compromisso inabalável 
-          de apoiar o crescimento sustentável de cada negócio.
-      </p>
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Agende uma visita conosco!</h2>
+    <br>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-12">
+
+        <div class="info-wrap">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Endereço</h3>
+              <p>R. Conquista, nº: 409, Apt 101, Viga, CEP: 26013-330, Nova Iguaçu-RJ</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Telefone</h3>
+              <p>+55 21 2667-4551</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+           <div> 
+          <h3>Email</h3>
+          <p>radar@radarcontabil.com.br</p>
+          </div>
+        </div><!-- End Contact Form -->
+        <br>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.562769684096!2d-43.44882572582258!3d-22.744487132088604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9967b35ef1ba75%3A0x1a56d8aaf0c76150!2sR.%20Conquista%2C%20409%20-%20101%20-%20Viga%2C%20Nova%20Igua%C3%A7u%20-%20RJ%2C%2026013-330!5e0!3m2!1spt-BR!2sbr!4v1743249509432!5m2!1spt-BR!2sbr" width="1050" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+        </form>
+    </div>
+
   </div>
-  
-  <div class="imagem-container">
-      <!-- Substitua pelo caminho da sua imagem -->
-      <img src="img/sobre-radar/sociosfoto.jpg" alt="Escritório da Radar Contábil" width="200" height="100" class="imagem">
-  </div>
-</div>
-</body>
+
+</section><!-- /Contact Section -->
 <section><br>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">

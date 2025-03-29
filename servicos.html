@@ -55,92 +55,50 @@
       </div>
     </div>
   </div>
-</nav>
-<h1 id="sobreNos" class="bg-success container-fluid text-warning">SOBRE NÓS</h1>
+</nav> 
+<h1 id="sobreNos" class="bg-success container-fluid text-warning">NOSSOS SERVIÇOS</h1>
 <script>
   document.getElementById('changeFontButton').addEventListener('click', function () {
     const sobreNos = document.getElementById('sobreNos');
     sobreNos.classList.toggle('chamativa'); // Alterna a classe para mudar a fonte
   });
 </script>
-<style>
-  .container {
-      display: flex;
-      min-height: 100vh;
-  }
-  
-  .texto-verde {
-      background-color: #e8f5e9; /* Verde claro */
-      width: 50%;
-      padding: 40px;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
-  
-  .imagem-container {
-      width: 50%;
-  }
-  
-  .imagem {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-  
-  .texto {
-      margin-bottom: 1.5rem;
-      text-align: justify;
-      line-height: 1.6;
-  }
-  
-  /* Responsivo para mobile */
-  @media (max-width: 768px) {
-      .container {
-          flex-direction: column;
-      }
-      .texto-verde, .imagem-container {
-          width: 100%;
-      }
-      .imagem-container {
-          height: 300px;
-      }
-  }
-</style>
-</head>
-<body>
-<div class="container">
-  <div class="texto-verde">
-      <h2>Sobre a Radar Contábil</h2>
-      <p id="margem1" class="texto">
-          A Radar Contábil é um escritório de contabilidade que há mais de 50 anos desempenha um papel essencial 
-          no mercado de serviços contábeis. Fundada por visionários que acreditavam na importância de oferecer suporte 
-          especializado, a empresa se tornou uma referência, especialmente no atendimento a postos de gasolina. Com 
-          profundo conhecimento nos setores contábil, fiscal e de departamento pessoal, a Radar Contábil entende as 
-          particularidades desse segmento, garantindo que os empresários do ramo possam focar em suas operações enquanto a 
-          gestão financeira está em boas mãos.
-      </p>
-      <p id="margem2" class="texto">
-          Além de ser uma especialista em postos de gasolina, a Radar Contábil também se destaca no atendimento a micro 
-          e pequenas empresas dos setores de comércio e serviços. Com um time experiente e dedicado, o escritório oferece 
-          soluções personalizadas para cada cliente, desde a abertura de empresas até a gestão tributária e de pessoal.
-      </p>
-      <p id="margem3" class="texto">
-          Ao longo das décadas, a Radar Contábil construiu uma reputação baseada em confiança, eficiência e resultados. Sua 
-          equipe está sempre atualizada com as mudanças na legislação e com as melhores práticas do mercado, proporcionando 
-          aos clientes a segurança de estarem sempre em conformidade com as leis. Mais do que um escritório de contabilidade, 
-          a Radar Contábil se posiciona como parceira estratégica para o sucesso de seus clientes, com um compromisso inabalável 
-          de apoiar o crescimento sustentável de cada negócio.
-      </p>
+<!-- rows cards -->
+<div class="rows-cards">
+  <!-- row card item 1 -->
+  <div class="row-card-item"><br>
+    <img src="img/card-servicos/dpcont.png" alt="dpcont" width="50" height="50">
+    <p class="nome-servico"><strong>Departamento Contábil</strong></p>
+    <p class="descricao-servico">
+      Registro de todas as operações financeiras, elaboração de livros contábeis, balanço patrimonial, DRE (Demonstração do Resultado do Exercício), 
+      fluxo de caixa, conferência de extratos, regularização de lançamentos, prevenção de riscos contábeis, balanço anual e provisões e ajustes contábeis.
+    </p>
   </div>
-  
-  <div class="imagem-container">
-      <!-- Substitua pelo caminho da sua imagem -->
-      <img src="img/sobre-radar/sociosfoto.jpg" alt="Escritório da Radar Contábil" width="200" height="100" class="imagem">
+  <!-- end row card item 1 -->
+   <!-- row card item 2 -->
+  <div class="row-card-item"><br>
+    <img src="img/card-servicos/dpfiscal.png" alt="dpcont" width="50" height="50">
+    <p class="nome-servico"><strong>Departamento Fiscal</strong></p>
+    <p class="descricao-servico">
+      Cálculo e recolhimento de tributos, entrega de obrigações acessórias (SPED, MIT, etc.), verificação de conformidade fiscal,
+      elaboração de livros fiscais, análise de regimes fiscais e estratégias para redução legal de carga trinutária.
+
+    </p>
   </div>
+  <!-- end row card item 2 -->
+   <!-- row card item 3 -->
+  <div class="row-card-item"><br>
+    <img src="img/card-servicos/dppessoal.png" alt="dpcont" width="50" height="50">
+    <p class="nome-servico"><strong>Departamento Pessoal</strong></p>
+    <p class="descricao-servico">
+      Folha de pagamento, Cálculo de férias, 13º, encargos sociais, rescisão e processamento e envio do eSocial.
+
+
+    </p>
+  </div>
+  <!-- end row card item 3 -->
 </div>
-</body>
+<!-- end rows cards -->
 <section><br>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
